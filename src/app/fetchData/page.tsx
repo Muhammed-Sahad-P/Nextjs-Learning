@@ -8,7 +8,7 @@ async function serverSideFetchData() {
     return res.json();
 }
 
-type Post ={
+type Post = {
     id: number;
     title: string;
     body: string;
